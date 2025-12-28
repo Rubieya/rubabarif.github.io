@@ -6,15 +6,18 @@ body {
 
 .main-box {
   width: 90%;
-  height: 90vh;
-  margin: auto;
-  margin-top: 5vh;
-  background-color: #1C1C1C; /* charcoal */
-  border-radius: 20px;
+  max-width: 1200px;
+  background-color: #1C1C1C;
+  border-radius: 30px;
+  padding: 60px;
+  margin: 60px auto;   /* page se gap */
+  position: relative;
+
   box-shadow:
     0 0 0 2px #C08A7D,
-    0 0 30px #C08A7D;
+    0 0 35px rgba(192,138,125,0.45);
 }
+
 .content {
   color: #EFE6DC;
   padding: 80px;
