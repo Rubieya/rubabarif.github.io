@@ -14,4 +14,20 @@ body {
     0 0 0 2px #C08A7D,
     0 0 30px #C08A7D;
 }
+.content {
+  color: #EFE6DC;
+  padding: 80px;
+}
+
+.content span {
+  color: #C08A7D;
+}
+
+button {
+  background-color: #C08A7D;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+}
 
