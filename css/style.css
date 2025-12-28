@@ -1,68 +1,41 @@
-/* ===== BODY ===== */
 body {
   margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0b2545; /* Diva GIS deep teal */
-  font-family: 'Poppins', sans-serif;
+  background-color: #0F4C5C; /* Diva GIS teal */
+  height: 100vh;
 }
 
-/* ===== MAIN HERO BOX ===== */
 .main-box {
   width: 90%;
-  max-width: 1200px;
-  height: 85vh;
-  background-color: #1C1C1C; /* Charcoal black (FIXED) */
-  border-radius: 30px;
+  height: 90vh;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: #1C1C1C; /* charcoal */
+  border-radius: 20px;
   box-shadow:
     0 0 0 2px #C08A7D,
-    0 0 35px rgba(192, 138, 125, 0.5);
-  padding: 60px;
+    0 0 30px #C08A7D;
 }
-
-/* ===== HERO LAYOUT ===== */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-/* ===== TEXT CONTENT ===== */
 .content {
   color: #EFE6DC;
-  max-width: 500px;
+  padding: 80px;
 }
 
 .content span {
-  color: #C08A7D; /* Name highlight */
+  color: #C08A7D;
 }
 
-/* ===== BUTTON ===== */
 button {
   background-color: #C08A7D;
-  color: #1C1C1C;
   border: none;
-  padding: 14px 28px;
+  padding: 12px 25px;
   border-radius: 30px;
   cursor: pointer;
-  font-size: 16px;
 }
-
-button:hover {
-  opacity: 0.9;
-}
-
-/* ===== VISUAL CIRCLE ===== */
 .visual {
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   background-color: #6B8E7E;
   border-radius: 50%;
-  opacity: 0.95;
 }
-
 
 
