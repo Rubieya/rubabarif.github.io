@@ -1,44 +1,13 @@
 body {
-  margin: 0;
-  background-color: #0F4C5C; /* Diva GIS teal */
-  height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+    color: #2C3E50;
+    margin: 0;
+    padding: 20px;
 }
 
-.main-box {
-  width: 90%;
-  max-width: 1200px;
-  background-color: #1C1C1C;
-  border-radius: 30px;
-  padding: 60px;
-  margin: 60px auto;   /* page se gap */
-  position: relative;
-
-  box-shadow:
-    0 0 0 2px #C08A7D,
-    0 0 35px rgba(192,138,125,0.45);
+h1 {
+    color: #E74C3C;
+    text-align: center;
 }
-
-.content {
-  color: #EFE6DC;
-  padding: 80px;
-}
-
-.content span {
-  color: #C08A7D;
-}
-
-button {
-  background-color: #C08A7D;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 30px;
-  cursor: pointer;
-}
-.visual {
-  width: 300px;
-  height: 300px;
-  background-color: #6B8E7E;
-  border-radius: 50%;
-}
-
 
